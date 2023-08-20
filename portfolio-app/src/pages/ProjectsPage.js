@@ -1,21 +1,30 @@
 import React from 'react';
 import ImageGallery from 'react-image-gallery';
 
-const pictures = [
+const bookstore = [
     {
-        original: 'images/checkers-board.png',
-        thumbnail: 'images/checkers-board.png',
-        description: `Python checkers board (2023)`,
-        originalHeight: '450px',
-    }];
+        original: 'images/bookstore1.png',
+        thumbnail: 'images/bookstore1.png',
+        originalHeight: '600px',
+    },
+    {
+        original: 'images/bookstore2.png',
+        thumbnail: 'images/bookstore2.png',
+        originalHeight: '600px',
+    },
+    {
+        original: 'images/bookstore3.png',
+        thumbnail: 'images/bookstore3.png',
+        originalHeight: '600px',
+    }
+];
 
 function ProjectsPage() {
     return (
         <>
             <h2>Gallery</h2>
-            <p>Here are some images of my hobbies and projects.</p>
             <article class="gallery">
-                <ImageGallery items={pictures} />
+                <ImageGallery items={bookstore} />
             </article>
         </>
     );

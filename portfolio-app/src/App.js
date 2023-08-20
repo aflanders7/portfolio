@@ -3,13 +3,13 @@ import './App.css';
 
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { useState } from 'react';
 
+import Nav from './components/nav';
 import HomePage from './pages/HomePage';
 import ProjectsPage from './pages/ProjectsPage';
 
 function App() {
-  const [job, setJob] = useState([])
+
   return (
     <div className="App">
       <BrowserRouter>
