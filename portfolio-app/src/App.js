@@ -8,16 +8,13 @@ import Nav from './components/nav';
 import HomePage from './pages/HomePage';
 import ProjectsPage from './pages/ProjectsPage';
 
+import { BsLinkedin, BsGithub } from 'react-icons/bs'; 
+
 function App() {
 
   return (
     <div className="App">
       <BrowserRouter>
-
-        <header>
-          <h1>Audrey Flanders
-          </h1>
-        </header>
 
         <Nav />
 
@@ -32,6 +29,8 @@ function App() {
         </main>
         
         <footer>
+        <a href="https://github.com/aflanders7" target="_blank"><BsGithub size={35}/></a>
+        <a href="https://www.linkedin.com/in/audrey-flanders-6767081b5/" target="_blank"><BsLinkedin size={35}/></a>
           <p><cite>&copy; 2023 Audrey Flanders</cite></p>
         </footer>
         

@@ -3,24 +3,24 @@ import React from 'react';
 function HomePage() {
     return (
         <>
-            <article id="dom">
-                <h2>Welcome to my Web Development Portfolio Project</h2>
-                <p>The frontend structure of this site is built with HTML. 
-                    A global CSS stylesheet adds style to the website, including 
-                    the use of imported Google Fonts. All images files are optimized 
-                    for the web to increase load time efficiency and improve image 
-                    resolution.  JavaScript is responsible for processing and interacting 
-                    with the data on this site. Express.JS is used to get, post, and 
-                    delete data as well as to specify the ports and routes of the data. 
-                    The Rest API is implemented for CRUD operations and HTTP methods. 
-                    The application was developed with Node.JS and managed with NPM. 
-                    The React framework updates the DOM based on component modification, 
-                    such as with the use of React icons. Mongoose and Express executed 
-                    CRUD operations on a collection developed with MongoDB.
-                </p>
 
-            </article>
-         </>
+            <div class= "container">
+                <div class= "header">
+                    <h2>Hello there! I'm Audrey Flanders.</h2> 
+                    I am a dedicated computer science student with a strong passion for creative problem-solving.  
+                    I thrive on tackling complex challenges. I am committed to learning and hope to contribute my 
+                    skills to projects that push the boundaries of what technology can achieve. Outside of my studies, 
+                    I find joy in reading, painting, creative writing, and spending time in nature.
+                </div>
+                <div class= "header">
+                    <img src={"images/codergirl.png"} height = "430px"/>
+                </div>
+            </div>
+            <div>
+                <h3>My skills</h3>
+                <p></p>
+            </div>
+        </>
     );
 }
 
