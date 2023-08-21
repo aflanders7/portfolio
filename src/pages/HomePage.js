@@ -20,8 +20,9 @@ function HomePage() {
                     <small><i>Source: Biscotto Design</i></small>
                 </div>
             </div>
-
-            <h2>My skills</h2>
+            <div class="center">
+                <h2>My skills</h2>
+            </div>
             <div class="skills">
                 
                 {data.map((item) => {

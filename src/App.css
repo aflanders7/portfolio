@@ -33,6 +33,7 @@
 
   main {
     padding: 1% 0;
+    width: auto;
   }
 
   footer {
@@ -47,6 +48,11 @@
     color: var(--dark)
   }
 
+  .center {
+    margin: auto;
+    text-align: center;
+  }
+
 
   .skills {
     margin: 0 30%;
@@ -57,7 +63,8 @@
     align-items: flex-end;
     border: solid 2px var(--contrast1);
     padding: 2% 0;
-    color: var(--dark)
+    color: var(--dark);
+    text-align: center;
   }
   
   .socials a {
