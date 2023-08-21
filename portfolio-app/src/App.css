@@ -71,12 +71,11 @@
 :root {
     --light:#abe0a6;
     --medium:#70b167;
-    --contrast1:#fdf2f2;
+    --contrast1:#f9ebeb;
     --contrast2:#f4adac;
     --contrast3:#f27c84;
     --dark:#334752;
-
-
+    --brown:#765848;
 
     --custom-embellishment-name:;
   }
@@ -85,33 +84,20 @@
   body {       /* Can alternatively define in html {} or :root {} */
     background-color:;
 
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
     font-family: 'M PLUS 1p', sans-serif;
 
-    padding: 1% 6%;
     max-width: 100%;
-    color: var(--dark);
-
     display: flex;
     flex-direction: column;
-    width: 70%;
-    margin: auto;
+
+
   }
   
   
   /*  ----- Page layout blocks -----  */
-  header {
 
-    margin: 3%;
-    padding: 2%;
-    width: 90%;
-    height:auto;
-  }
   main {
-    padding:3%;
-    width: auto;
+    padding: 1% 0;
   }
   section {}
     article {}
@@ -120,8 +106,35 @@
   div {}
   aside {}
 
-  footer {}
+  footer {
+    background-color: var(--contrast1);
+    padding: 1% 17%; 
+    text-align: center;
+    margin: 2rem 0 0;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-top: solid 2px #9f8d84;
+    color: var(--dark)
+  }
+
+
+  .skills {
+    margin: 0 30%;
+    display: grid;
+    grid: 100px / auto auto auto auto;
+    row-gap: 20px;
+    grid-auto-columns: auto;
+    align-items: flex-end;
+    border: solid 2px var(--contrast1);
+    padding: 2% 0;
+    color: var(--dark)
+  }
   
+  .socials a {
+    margin: 2px;
+    padding: 0 8px;
+  }
   
   /* ----- Anchors ----- Text links */
   a {
@@ -135,44 +148,55 @@
   a:link{}
   
   /*  ----- Navigation ----- Override text links for navigation only.  */
-  .main{
-    text-align:right;
-    padding: 0; 
+  nav{
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding: 3px 5px;
+    box-shadow: 0 8px 5px #9f8d84;
+    justify-content: center;
+    font-size: 1.1rem;
+    background-color: var(--contrast1);
 
   }
-  .main a {
+  
+  .navigation {
+    padding: 1% 18%; 
+    justify-content: space-between;
+
+  }
+  .navigation a {
     font-size:1.3em;
     margin: 2px;
-    padding: 6px 15px 6px 15px;
+    padding: 6px 15px;
     text-decoration:none;
     font-family: 'M PLUS 1p', sans-serif;
-    color: var(--dark)
+    color: var(--dark);
+
   }
-  .main a:hover {
+  .navigation a:hover {
     text-decoration: underline;
 
   }
 
   .header {
     float: left;
-    padding: 20px;
-    max-width: 44%;
     text-align: left;
-
+    padding-right: 4%;
   }
 
   .container {
-    display: inline-flex;
-    justify-content: center;
+    margin: 0% 18%;
+    display: flex;
+    padding: 1% 0%;
+    align-items: center;
   }
 
   .data {
     padding: 10px;
   }
 
-  .icon{
-    size: 20em;
-  }
   
   .local {}
   .local a {
@@ -188,7 +212,10 @@
   dt {}
   dd {}
   
-  h1, h2, h3, h4, h5, h6 {    font-family: 'M PLUS 1p', sans-serif;} 
+  h1, h2, h3, h4, h5, h6 {    
+    font-family: 'M PLUS 1p', sans-serif;
+    color: var(--dark);
+  } 
   h1 {}
   h2 {}
   h3 {}

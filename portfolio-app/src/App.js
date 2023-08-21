@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { PiFlowerLight, PiFlowerTulipLight } from 'react-icons/pi'; 
 
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -29,9 +30,11 @@ function App() {
         </main>
         
         <footer>
-        <a href="https://github.com/aflanders7" target="_blank"><BsGithub size={35}/></a>
-        <a href="https://www.linkedin.com/in/audrey-flanders-6767081b5/" target="_blank"><BsLinkedin size={35}/></a>
-          <p><cite>&copy; 2023 Audrey Flanders</cite></p>
+        <p><cite>&copy; 2023 Audrey Flanders</cite></p>
+        <div class="socials">
+          <a href="https://github.com/aflanders7" target="_blank"><BsGithub size={35}/></a>
+          <a href="https://www.linkedin.com/in/audrey-flanders-6767081b5/" target="_blank"><BsLinkedin size={35}/></a>
+        </div>
         </footer>
         
         </BrowserRouter>
