@@ -4,7 +4,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 
 
-  @import "~react-image-gallery/styles/css/image-gallery.css";
 
 /*   ----- Variables  -----  */
 :root {
@@ -14,14 +13,11 @@
     --contrast2:#f4adac;
     --contrast3:#f27c84;
     --dark:#334752;
-    --brown:#765848;
-
-    --custom-embellishment-name:;
+    --brown:#9f8d84;
   }
   
   /*  ----- Viewport ----- elements inherited by all remaining elements ----- */
   body {       /* Can alternatively define in html {} or :root {} */
-    background-color:;
     font-family: 'M PLUS 1p', sans-serif;
     max-width: 100%;
     display: flex;
@@ -44,7 +40,7 @@
     justify-content: space-between;
     display: flex;
     align-items: center;
-    border-top: solid 2px #9f8d84;
+    border-top: solid 2px var(--brown);
     color: var(--dark)
   }
 
@@ -86,7 +82,7 @@
     display: flex;
     align-items: center;
     padding: 3px 5px;
-    box-shadow: 0 8px 5px #9f8d84;
+    box-shadow: 0 8px 5px var(--brown);
     justify-content: center;
     font-size: 1.1rem;
     background-color: var(--contrast1);
@@ -125,9 +121,31 @@
     align-items: center;
   }
 
-  .data {
-    padding: 10px;
+  .container2 {
+    margin: 1% 12%; 
+    align-items: center;
+    color: var(--dark);
   }
+
+  .project {
+    display: flex;
+    justify-content:left;
+    padding: 1% 0%;
+    align-items:flex-start;
+
+  }
+
+
+  .image {
+    margin-right: 25px;
+    height: 360px;
+    border: solid 1px var(--dark);
+  }
+
+  .description {
+    display:inline-block;
+  }
+
 
   /*  -----  Typography  ----- */
   
