@@ -7,7 +7,7 @@ function ProjectsPage() {
     const data2 = Projects2;
     return (
         <>
-            <div class="center">
+            <div class="title">
                 <h2>Projects</h2>
             </div>
 
@@ -25,8 +25,8 @@ function ProjectsPage() {
                                 
                                 <strong>Made With: </strong>{item.technology}
                                 <p>{item.description}</p>
-                                <a href={item.github} target="_blank">Code</a> &nbsp;
-                                <a href={item.live} target="_blank">Live Site</a>
+                                <a href={item.github} target="_blank" class="button">Code</a> &nbsp;
+                                <a href={item.live} target="_blank" class="button">Live Site</a>
                             </div>
                         </div>
 
@@ -44,7 +44,7 @@ function ProjectsPage() {
                                 
                                 <strong>Made With: </strong>{item.technology}
                                 <p>{item.description}</p>
-                                <a href={item.github} target="_blank">Code</a> &nbsp;
+                                <a href={item.github} target="_blank" class="button">{item.code}</a> &nbsp;
                             </div>
                         </div>
 

@@ -14,6 +14,7 @@
     --contrast3:#f27c84;
     --dark:#334752;
     --brown:#9f8d84;
+    --darkb:#866c5f;
   }
   
   /*  ----- Viewport ----- elements inherited by all remaining elements ----- */
@@ -64,16 +65,34 @@
     min-width: 300px;
   }
   
-  .socials a {
-    margin: 2px;
-    padding: 0 8px;
-  }
-  
   /* ----- Anchors ----- Text links */
   a {
     padding: 2px;
     font-family: 'M PLUS 1p', sans-serif;
     color: var(--dark)
+  }
+
+  .socials a {
+    margin: 2px;
+    padding: 0 8px;
+  }
+  
+  .button {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 4px 9px;
+    border: 2px solid var(--darkb);
+    border-radius: 3px;
+    background-color: var(--contrast1);
+    color: var(--dark);
+
+
+  }
+
+  .button:hover {
+    background-color: var(--brown);
+    color: var(--contrast1);
+
   }
   
   /*  ----- Navigation ----- Override text links for navigation only.  */
@@ -128,16 +147,20 @@
 
   .container2 {
     margin: 1% 12%; 
-    align-items: center;
     color: var(--dark);
+    text-align: left;
+    justify-content: space-around;
+  }
+
+  .title {
+    text-align: center;
+    margin: 4% 0 3% 0;
   }
 
   .project {
     display: flex;
     justify-content:left;
-    padding: 1% 0%;
-    align-items:flex-start;
-
+    padding-bottom: 2%;
   }
 
 
@@ -160,5 +183,9 @@
   
   h1, h2, h3, h4, h5, h6 {    
     font-family: 'M PLUS 1p', sans-serif;
-    color: var(--dark);
+    color: var(--darkb);
   } 
+
+  h1, h2 {
+    color: var(--dark);
+  }
