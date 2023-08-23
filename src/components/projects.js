@@ -1,7 +1,7 @@
 // projects with a live page
 export const Projects = [
     {
-        image: './portfolio/images/Bookstore.png',
+        image: './images/Bookstore.png',
         title: 'Bookstore Database',
         technology: 'MySQL, Node.JS, Express, Handlebars, JavaScript',
         description: 'Database management system for a bookstore. Built with Node.JS and MySQL for backend functionality. Uses CRUD functions to manage and track product inventory, customers, employees, and sales. Deployed with Oracle Cloud.',
