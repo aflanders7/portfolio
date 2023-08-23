@@ -17,7 +17,7 @@ function ProjectsPage() {
                     return (
                         <div className='project'>
                             <div>
-                                <img class = 'image' src={item.image}/>
+                                <img class = 'image' alt= "project" src={item.image}/>
                             </div>
                             
                             <div class = "description">

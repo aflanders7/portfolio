@@ -16,7 +16,7 @@ function HomePage() {
                     I find joy in reading, painting, creative writing, and spending time in nature.
                 </div>
                 <div class= "header2">
-                    <img class="home" src={"images/codergirl.png"}/>
+                    <img class="home" alt= "Girl Coding" src={"images/codergirl.png"}/>
                     <small><i>Source: Biscotto Design</i></small>
                 </div>
             </div>
