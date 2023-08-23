@@ -1,5 +1,4 @@
 import './App.css';
-import { PiFlowerLight, PiFlowerTulipLight } from 'react-icons/pi'; 
 
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -21,8 +20,8 @@ function App() {
         <main>
           <section>
             <Routes>
-                <Route path="/portfolio/" element={<HomePage />} />
-                <Route path="/projects/" element={<ProjectsPage />} />
+                <Route path="/" element={<HomePage />} />
+                <Route path="/projects" element={<ProjectsPage />} />
 
             </Routes>
           </section>
