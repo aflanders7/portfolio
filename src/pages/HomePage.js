@@ -1,5 +1,6 @@
 import React from 'react';
 import { Skills } from '../components/skills';
+import pic from "./images/Bookstore.png";
 
 
 function HomePage() {
