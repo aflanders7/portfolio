@@ -21,7 +21,7 @@ function HomePage() {
                 </div>
             </div>
             <div class="center">
-                <h2>My skills</h2>
+                <h2>Technical Skills</h2>
             </div>
             <div class="skills">
                 
