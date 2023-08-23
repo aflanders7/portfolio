@@ -61,6 +61,7 @@
     padding: 2% 0;
     color: var(--dark);
     text-align: center;
+    min-width: 300px;
   }
   
   .socials a {
@@ -114,9 +115,13 @@
     padding-right: 4%;
   }
 
+  .header2 {
+    text-align: center;
+  }
+
   .container {
     margin: 0% 18%;
-    display: flex;
+    display: inline-flex;
     padding: 1% 0%;
     align-items: center;
   }
@@ -140,6 +145,10 @@
     margin-right: 25px;
     height: 360px;
     border: solid 1px var(--dark);
+  }
+
+  .home {
+    width: 400px;
   }
 
   .description {
