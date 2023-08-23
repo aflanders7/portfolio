@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { PiFlowerLight, PiFlowerTulipLight } from 'react-icons/pi'; 
 
