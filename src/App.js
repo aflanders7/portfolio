@@ -21,8 +21,8 @@ function App() {
         <main>
           <section>
             <Routes>
-                <Route path="/portfolio" element={<HomePage />} />
-                <Route path="/projects" element={<ProjectsPage />} />
+                <Route path="/portfolio/" element={<HomePage />} />
+                <Route path="/projects/" element={<ProjectsPage />} />
 
             </Routes>
           </section>

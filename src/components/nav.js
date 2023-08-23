@@ -14,8 +14,8 @@ function Nav() {
     <nav className="navigation">
         <div><PiPottedPlantFill size= "40" color='DarkSeaGreen'/></div>
         <div>
-        <Link to="../portfolio">About</Link>
-        <Link to="../projects">Projects</Link>
+        <Link to="../portfolio/">About</Link>
+        <Link to="../projects/">Projects</Link>
         </div>
     </nav>
   );
