@@ -3,7 +3,7 @@ import { Projects, Projects2 } from '../components/projects';
 
 
 function ProjectsPage() {
-    const data = Projects;
+    const data1 = Projects;
     const data2 = Projects2;
     return (
         <>
@@ -13,7 +13,7 @@ function ProjectsPage() {
 
             <div class="container2">
                 
-                {data.map((item) => {
+                {data1.map((item) => {
                     return (
                         <div className='project'>
                             <div>
