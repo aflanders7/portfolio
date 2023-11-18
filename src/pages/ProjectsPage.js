@@ -26,7 +26,6 @@ function ProjectsPage() {
                                 <strong>Made With: </strong>{item.technology}
                                 <p>{item.description}</p>
                                 <a href={item.github} target="_blank" class="button">Code</a> &nbsp;
-                                <a href={item.live} target="_blank" class="button">Live Site</a>
                             </div>
                         </div>
 
