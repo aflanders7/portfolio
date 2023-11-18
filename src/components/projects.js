@@ -5,8 +5,7 @@ export const Projects = [
         title: 'Bookstore Database',
         technology: 'MySQL, Node.JS, Express, Handlebars, JavaScript',
         description: 'Database management system for a bookstore. Built with Node.JS and MySQL for backend functionality. Uses CRUD functions to manage and track product inventory, customers, employees, and sales. Deployed with Oracle Cloud.',
-        github: 'https://github.com/aflanders7/Bookstore',
-        live: 'http://150.136.83.168:8034/',
+        github: 'https://github.com/aflanders7/Bookstore'
     }
 ];
 
