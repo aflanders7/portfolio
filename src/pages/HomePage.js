@@ -1,12 +1,10 @@
 import React from 'react';
 import { Skills } from '../components/skills';
-import { Projects, Projects2 } from '../components/projects';
 
 
 function HomePage() {
     const data = Skills;
-    const data1 = Projects;
-    const data2 = Projects2;
+
     return (
         <>
 
