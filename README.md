@@ -1,18 +1,25 @@
-# Getting Started with Create React App
+# Portfolio 
+Author: Audrey Flanders
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Link to Demo](https://portfolio-aflanders7.vercel.app/)
 
-## Available Scripts
+# Built With
+* React
+* JavaScript
 
-In the project directory, you can run:
+# Getting Started
 
-### `npm start`
+**1. Clone the repo**
 
-Runs the app in the development mode.\
+    git clone https://github.com/aflanders7/portfolio.git
+
+**2. Run the program**
+
+    npm start
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+
 
 ### `npm test`
 
