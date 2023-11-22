@@ -2,7 +2,7 @@ import { BiLogoReact, BiLogoJavascript, BiLogoHtml5 } from 'react-icons/bi';
 import { DiCss3, DiNodejs } from 'react-icons/di'; 
 import { BsGit } from 'react-icons/bs'; 
 import { GrMysql } from 'react-icons/gr'; 
-import { SiExpress, SiPython } from 'react-icons/si';
+import { SiExpress, SiPython, SiSvelte } from 'react-icons/si';
 
 export const Skills=[
     {
@@ -11,20 +11,16 @@ export const Skills=[
     },
     
     {
-        name: "CSS",
-        icon: <DiCss3 size= "60"/>
-    },
-    {
-        name: "HTML",
-        icon: <BiLogoHtml5 size= "70" />
-    },
-    {
         name: "JavaScript",
         icon: <BiLogoJavascript size= "60"/>
     },
     {
         name: "Git",
         icon: <BsGit size= "60"/>
+    },
+    {
+        name: "HTML",
+        icon: <BiLogoHtml5 size= "70" />
     },
     {
         name: "React.JS",
@@ -38,6 +34,10 @@ export const Skills=[
     {
         name: "Node.JS",
         icon: <DiNodejs size= "80"/>
+    },
+    {
+        name: "Svelte",
+        icon: <SiSvelte size= "60"/>
     },
 
 ];
