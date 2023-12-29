@@ -4,7 +4,8 @@ export const Projects = [
         image: 'images/Bookstore.png',
         title: 'Bookstore Database',
         technology: 'MySQL, Node.JS, Express, Handlebars, JavaScript',
-        description: 'Database management system for a bookstore. Built with Node.JS and MySQL for backend functionality. Uses CRUD functions to manage and track product inventory, customers, employees, and sales.',
+        description: 'Database management system for a bookstore. Built with Node.JS and MySQL for backend functionality. Uses CRUD functions to manage and track product inventory, customers, employees, and sales.
+            (Please be patient as the demo loads. It takes about 30 seconds for the server to spin up.)',
         github: 'https://github.com/aflanders7/Bookstore',
         demo: 'https://bookstoredbms.onrender.com/'
     },
