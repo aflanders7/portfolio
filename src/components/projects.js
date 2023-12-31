@@ -4,9 +4,17 @@ export const Projects = [
         image: 'images/Bookstore.png',
         title: 'Bookstore Database',
         technology: 'MySQL, Node.JS, Express, Handlebars, JavaScript',
-        description: 'Database management system for a bookstore. Built with Node.JS and MySQL for backend functionality. Uses CRUD functions to manage and track product inventory, customers, employees, and sales. (Please be patient as the demo loads. It takes about 30 seconds for the server to spin up.)',
+        description: 'Relational database management system for a bookstore. Built with Node.JS and MySQL for backend functionality. Uses CRUD functions to manage and track product inventory, customers, employees, and sales. (Please be patient as the demo loads. It takes about 30-60 seconds for the server to spin up.)',
         github: 'https://github.com/aflanders7/Bookstore',
         demo: 'https://bookstoredbms.onrender.com/'
+    },
+    {
+        image: 'images/finance.png',
+        title: 'Personal Finance Tracker',
+        technology: 'PostgreSQL, Flask, Python, Jinja, Chart.JS',
+        description: 'Comprehensive personal finance tracker with functionalities to manage expenses, track income, and view graphical financial insights for data analysis.',
+        github: 'https://github.com/aflanders7/Finance_Tracker',
+        demo: 'https://finance-tracker-aflanders7.vercel.app/'
     },
     {
         image: 'images/portfolio.png',
