@@ -11,9 +11,11 @@ function HomePage() {
             <div class= "container">
                 <div class= "header">
                     <h2>About Me </h2> 
-                    Hello! I'm Audrey Flanders. I am a dedicated computer science student with a strong passion for creative problem-solving.  
-                    I thrive on tackling complex challenges. I am committed to learning and hope to contribute my 
-                    skills to projects that push the boundaries of what technology can achieve. Outside of my studies, 
+                    Hello! I'm Audrey Flanders, a dedicated computer science student with a passion for creative problem-solving 
+                    and tackling complex challenges.  My professional experience includes building large-scale data pipelines, developing 
+                    web applications, and executing research projects with a focus on innovative design.
+                     I am committed to learning and eager to contribute my 
+                    skills to projects that push the boundaries of technology. Outside of my studies 
                     I find joy in reading, painting, creative writing, and spending time in nature.
                 </div>
                 <div class= "header2">
