@@ -1,24 +1,27 @@
-//Navigate from page to page
-
 import React from 'react';
-import { Link } from 'react-router-dom';
-
-import { PiPottedPlantFill } from 'react-icons/pi'; 
-
-
-
-
+import { Link, useLocation } from 'react-router-dom';
+ 
 function Nav() {
+  const location = useLocation();
+ 
   return (
-
-    <nav className="navigation">
-        <div><PiPottedPlantFill size= "40" color='DarkSeaGreen'/></div>
-        <div>
-        <Link to="../">About</Link>
-        <Link to="../projects">Projects</Link>
+    <nav className="nav">
+      <div className="nav-inner">
+        <div className="nav-logo">
+          Audrey Flanders
         </div>
+        <div className="nav-links">
+          <Link to="/" className={`nav-btn ${location.pathname === '/' ? 'active' : ''}`}>
+            About
+          </Link>
+          <Link to="/projects" className={`nav-btn ${location.pathname === '/projects' ? 'active' : ''}`}>
+            Projects
+          </Link>
+        </div>
+      </div>
     </nav>
   );
 }
-
+ 
 export default Nav;
+ 

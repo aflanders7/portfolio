@@ -1,55 +1,69 @@
-// projects with a live page
 export const Projects = [
-    {
-        image: 'images/Bookstore.png',
-        title: 'Bookstore Database',
-        technology: 'MySQL, Node.JS, Express, Handlebars, JavaScript',
-        description: 'Relational database management system for a bookstore. Built with Node.JS and MySQL for backend functionality. Uses CRUD functions to manage and track product inventory, customers, employees, and sales. (Please be patient as the demo loads. It takes about 30-60 seconds for the server to spin up.)',
-        github: 'https://github.com/aflanders7/Bookstore',
-        demo: 'https://bookstoredbms.onrender.com/'
-    },
-    {
-        image: 'images/finance.png',
-        title: 'Personal Finance Tracker',
-        technology: 'PostgreSQL, Flask, Python, Jinja, Chart.JS',
-        description: 'Comprehensive personal finance tracker with functionalities to manage expenses, track income, and view graphical financial insights for data analysis.',
-        github: 'https://github.com/aflanders7/Finance_Tracker',
-        demo: 'https://finance-tracker-aflanders7.vercel.app/'
-    },
-    {
-        image: 'images/portfolio.png',
-        title: 'Portfolio Website',
-        technology: 'React, JavaScript',
-        description: 'Portfolio website built with React and deployed with Vercel.',
-        github: 'https://github.com/aflanders7/portfolio',
-        demo: 'https://portfolio-aflanders7.vercel.app/'
-    }
-];
-
-// projects without a live page
-export const Projects2 = [
-    {
-        image: 'images/taskmap.png',
-        title: 'Construction Progress Tracker',
-        technology: 'Next.JS, TypeScript, Tailwind CSS, DaisyUI',
-        description: 'Frontend human-centered design for a construction tracker website owned by Wayfinder Data LLC. Created views and tables for analyzing construction progress and worker efficiency. Worked directly with the client to understand and meet their needs. Code unavailable due to ownership rights.',
-        github: "https://github.com/aflanders7/",
-        code: "GitHub"
-    },
-    {
-        image: 'images/hashmap.png',
-        title: 'HashMap Implementation',
-        technology: 'Python',
-        description: 'HashMaps implemented with underlying dynamic arrays. OA HashMap collisions handled with open addressing via quadratic probing. SC HashMap collisions resolved with chaining via singly linked lists.',
-        github: 'https://github.com/aflanders7/HashMap_Implementation',
-        code: "Code"
-    },
-    {
-        image: 'images/mentalhealth.png',
-        title: 'Mental Health Website',
-        technology: 'Svelte, JavaScript',
-        description: 'Mental health website featuring a chatbot and breathing animation. Designed and built with a team during a Spring 2023 hackathon. My contributions included the frontend design, JavaScript animation, and integrating the chatbot.',
-        github: 'https://github.com/aflanders7/MentalHealthApp-BeaverHack2023',
-        code: "Code"
-    }
+  {
+    num: '01',
+    title: 'Theme Park Travel Optimizer',
+    technology: 'React · Python · FastAPI · ML · Prophet · Pandas',
+    description:
+      'Full-stack travel planning engine using time-series ML forecasting to predict crowd levels and generate personalized itinerary and hotel recommendations. Scalable REST APIs, optimized SQL queries, and rate-limiting.',
+    github: null,
+    demo: 'https://mousedays.net/',
+  },
+  {
+    num: '02',
+    title: 'Project Workflow Platform',
+    technology: 'Next.js · TypeScript · PostgreSQL · Supabase',
+    description:
+      'Full-stack workflow management platform to track progress and updates across operational projects. Relational data model with authentication, CRUD workflows, and scalable architecture. In progress.',
+    github: null, //'https://github.com/aflanders7/',
+    demo: null,
+  },
+  {
+    num: '03',
+    title: 'Gamified Productivity App',
+    technology: 'Flutter · Dart · Firebase · iOS · Xcode',
+    description:
+      'Mobile task management app with gamified mechanics. Modular, feature-based architecture with tasks, rewards, and goal tracking powered by real-time Firebase integration. In progress.',
+    github: null, //'https://github.com/aflanders7/',
+    demo: null,
+  },
+  {
+    num: '04',
+    title: 'Bookstore Database',
+    technology: 'MySQL · Node.js · Express · Handlebars · JavaScript',
+    description:
+      'Relational database management system for a bookstore. CRUD operations to manage inventory, customers, employees, and sales. Note: demo takes ~30–60 seconds to spin up on a cold start.',
+    github: 'https://github.com/aflanders7/Bookstore',
+    demo: 'https://bookstoredbms.onrender.com/',
+    image: 'images/Bookstore.png',
+  },
+  {
+    num: '05',
+    title: 'Personal Finance Tracker',
+    technology: 'PostgreSQL · Flask · Python · Jinja · Chart.js',
+    description:
+      'Comprehensive finance tracker with expense management, income tracking, and graphical financial insights for data analysis and budgeting.',
+    github: 'https://github.com/aflanders7/Finance_Tracker',
+    demo: 'https://finance-tracker-aflanders7.vercel.app/',
+    image: 'images/finance.png',
+  },
+  {
+    num: '06',
+    title: 'Mental Health App',
+    technology: 'Svelte · JavaScript',
+    description:
+      'Hackathon project (BeaverHack 2023) — mental health web app with a chatbot and breathing animation. Led the frontend design, JS animation, and chatbot integration for the team.',
+    github: 'https://github.com/aflanders7/MentalHealthApp-BeaverHack2023',
+    demo: null,
+    image: 'images/mentalhealth.png',
+  },
+  {
+    num: '07',
+    title: 'HashMap Implementation',
+    technology: 'Python',
+    description:
+      'HashMaps built on dynamic arrays. Open-addressing variant uses quadratic probing for collision handling; separate-chaining variant uses singly linked lists.',
+    github: 'https://github.com/aflanders7/HashMap_Implementation',
+    demo: null,
+    image: 'images/hashmap.png',
+  },
 ];
