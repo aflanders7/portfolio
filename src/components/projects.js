@@ -5,7 +5,7 @@ export const Projects = [
     technology: 'React · Python · FastAPI · ML · Prophet · Pandas',
     description:
       'Full-stack travel planning engine using time-series ML forecasting to predict crowd levels and generate personalized itinerary and hotel recommendations. Scalable REST APIs, optimized SQL queries, and rate-limiting.',
-    github: null,
+    github: 'https://github.com/aflanders7/theme-park-optimization-engine',
     demo: 'https://mousedays.net/',
   },
   {
